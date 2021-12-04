@@ -177,7 +177,7 @@ background-color: rgb(150, 150, 150)
 }
 
 
-
+/* 
 .gridItem:hover {
 
     filter: opacity(0.9);
@@ -186,7 +186,7 @@ background-color: rgb(150, 150, 150)
 .gridItem2:hover {
 
     filter: opacity(0.9);
-}
+} */
 
 /* MEDIA QUERIES */
 
