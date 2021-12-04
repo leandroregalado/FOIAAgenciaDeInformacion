@@ -25,6 +25,7 @@ a {
 h2 {
     color:green;
     padding: 10px 10px 10px 0px;
+    
 }
 
 
@@ -129,7 +130,9 @@ background-color: rgb(150, 150, 150)
 /* CONTACTO.HTML */
 
 .formContacto { 
-	width:80%;
+
+    align-items: center;
+    width:80%;
 	margin-left:10%;
 	margin-right:10%;
     margin-bottom: 200px;
@@ -137,8 +140,33 @@ background-color: rgb(150, 150, 150)
 
 .fieldsetContacto {
     justify-content:space-between;
+    animation-name:cambio_escala;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-iteration-count:initial;
 
 }
+
+
+
+
+@keyframes cambio_escala {
+    0% { transform: scale(5); }
+
+    25% { transform: scale(4);}
+
+    50% { transform: scale(3);}
+
+    75% { transform: scale(2);}
+
+    100% { transform: scale(1);}
+
+
+
+}
+
+
+
 /* NOSOTROS.HTML */
 
 .sectionNosotros {
@@ -164,6 +192,7 @@ background-color: rgb(150, 150, 150)
     height: 100%;
     object-fit:cover;
     border-radius: 5px;
+    transition: transform 1s;
  
 }
 
@@ -173,20 +202,52 @@ background-color: rgb(150, 150, 150)
     height:205%;
     object-fit:cover;
     border-radius: 5px;
- 
+    transition: transform 1s;
+
+
 }
 
 
-/* 
+
 .gridItem:hover {
 
     filter: opacity(0.9);
+    transform: scale(1.1);
 }
 
 .gridItem2:hover {
 
     filter: opacity(0.9);
-} */
+    transform: scale(1.1);
+
+} 
+
+
+/* NOTICIAS.HTML */
+
+.noticiasArticle {
+
+    display: flex;
+    flex-direction: row;
+    padding: 25px 25px;
+    width: 100%;
+
+}
+
+.bodyNoticias {
+    background-color:whitesmoke;
+    background-image: linear-gradient(to bottom,slateblue, whitesmoke);
+    
+}
+
+.noticiasPadding{
+    padding: 25px 25px;
+
+}
+
+
+
+
 
 /* MEDIA QUERIES */
 
