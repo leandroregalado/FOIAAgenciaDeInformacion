@@ -29,6 +29,22 @@ h2 {
 }
 
 
+h5 {
+
+    color: black;
+    font-size: 35px;
+    font-weight: bolder;
+    background-color: rgba(159, 159, 159, 0.8);
+}
+
+
+.pNoticias {
+    color:whitesmoke;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgba(159, 159, 159, 0.8);
+}
+
 /* HEADER */
 
 header {
@@ -124,6 +140,17 @@ color:greenyellow ;
 background-color: rgb(150, 150, 150)
 
 }
+
+
+/* LAFRASE.HTML */
+
+.laFrase {
+
+display: flex;
+flex-direction: row;
+
+}
+
 
 
 
